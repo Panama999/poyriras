@@ -1,11 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "A",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yatrm/item/AItem.java",
+          "src/main/resources/assets/yatrm/models/item/a.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.yatrm.a": "A"
+    }
   },
   "foldersRoot": {
     "name": "~",

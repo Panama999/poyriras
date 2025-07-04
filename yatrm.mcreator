@@ -1,11 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Asd",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yatrm/item/AsdItem.java",
+          "src/main/resources/assets/yatrm/models/item/asd.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.yatrm.asd": "Asd"
+    }
   },
   "foldersRoot": {
     "name": "~",
